@@ -7,3 +7,8 @@ This repository is a pnpm workspace that allows developers to share local depend
 [TypeScript](https://www.typescriptlang.org/) is required, to simplify the development process Asas Virtuais packages are not transpiled to JavaScript.
 
 [Caddy](https://caddyserver.com/) is recommended for development to allow https on localhost with ease.
+
+
+**Usage**
+
+To use this repository you have to create the "packages" directory and clone the repositories you want to contribute to in there, it is not included in the repository because I believe it is important for contributors to understand they are doing, by creating the directory themselves contributors show that they are qualified to make contributions.
