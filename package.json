@@ -1,0 +1,11 @@
+{
+    "name": "asas-workspace",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "caddy run"
+    },
+    "optionalDependencies": {
+        "typescript": "^5.1.6"
+    }
+}

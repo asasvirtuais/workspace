@@ -1,0 +1,67 @@
+{
+	"compilerOptions": {
+
+        "target": "ESNext",
+
+        "module": "ESNext",
+
+        "moduleResolution": "node",
+
+        /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
+
+        "incremental": true,
+
+        // "inlineSourceMap": true,
+
+        /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+        "esModuleInterop": true,
+
+        /* Include modules imported with .json extension. */
+		"resolveJsonModule": true,
+
+		/* Enable all strict type-checking options. */
+		"strict": true,
+
+		/* Report errors on unused locals. */
+		"noUnusedLocals": true,
+		/* Report errors on unused parameters. */
+		"noUnusedParameters": true,
+		/* Report error when not all code paths in function return a value. */
+		"noImplicitReturns": true,
+		/* Report errors for fallthrough cases in switch statement. */
+		"noFallthroughCasesInSwitch": true,
+		/* Add undefined to a type when accessed using an index. */
+		"noUncheckedIndexedAccess": true,
+		/* Ensure that casing is correct in imports. */
+		"forceConsistentCasingInFileNames": true,
+
+		/* Report module resolution log messages. */
+		"traceResolution": true,
+		/* Print names of generated files part of the compilation. */
+		"listEmittedFiles": false,
+		/* Print names of files part of the compilation. */
+		"listFiles": false,
+		/* Stylize errors and messages using color and context. */
+		"pretty": true,
+
+        
+        /* Enables experimental support for ES7 decorators. */
+		// "experimentalDecorators": true,
+        /* Enables experimental support for emitting type metadata for decorators. */
+		// "emitDecoratorMetadata": true,
+
+		"lib": ["ESNext", "DOM"],
+
+        "typeRoots": ["./node_modules/@types"],
+
+        "baseUrl": "./",
+
+        "paths": {
+			"workspace/*" : ["./*"]
+		},
+
+		"skipLibCheck": true
+
+	},
+	"exclude": ["node_modules"]
+}

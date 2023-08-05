@@ -1,0 +1,15 @@
+localhost {
+    reverse_proxy localhost:3000
+}
+auth.localhost {
+    reverse_proxy localhost:4000
+}
+chat.localhost {
+    reverse_proxy localhost:5000
+}
+preact.localhost {
+    reverse_proxy localhost:6000
+}
+strapi.localhost {
+    reverse_proxy localhost:7000
+}
