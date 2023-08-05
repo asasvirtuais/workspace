@@ -11,4 +11,4 @@ This repository is a pnpm workspace that allows developers to share local depend
 
 **Usage**
 
-To use this repository you have to create the "packages" directory and clone the repositories you want to contribute to in there, it is not included in the repository because I believe it is important for contributors to understand they are doing, by creating the directory themselves contributors show that they are qualified to make contributions.
+To use this repository you have to create the "packages" directory and clone the repositories you want to contribute to in there, it is not included in the repository because I believe it is important for contributors to understand what they are doing, by creating the directory themselves contributors show that they are qualified to make contributions.
